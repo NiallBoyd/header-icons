@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+  background-color: white;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+header {
+  background-color: #d05c2e;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Sigmar One";
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.grain1 {
+  width: 40px;
+  float: left;
+ }
+
+ .grain2 {
+  width: 40px;
+  float: right;
+ }
+
+ .grainoutside {
+   padding: .5em 0;
+ }
+
+.frame nav {
+ border-top: 1px solid #a63f38;
+ border-bottom: 1px solid #a63f38;
+ justify-content: space-between;
+ width: 100%;
+}
+
+.frame {
+display: flex;
+}
+.frame ul {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.frame li a {
+  width: 33.33%;
+}

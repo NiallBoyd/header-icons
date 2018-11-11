@@ -8,6 +8,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
 }
@@ -33,33 +34,39 @@ h1 {
 .grain1 {
   width: 40px;
   float: left;
- }
+}
 
- .grain2 {
+.grain2 {
   width: 40px;
   float: right;
- }
+}
 
- .grainoutside {
-   padding: .5em 0;
- }
+.grainoutside {
+  padding: .5em 0;
+}
 
 .frame nav {
- border-top: 1px solid #a63f38;
- border-bottom: 1px solid #a63f38;
- justify-content: space-between;
- width: 100%;
+  border-top: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
+  width: 100%;
 }
 
 .frame {
-display: flex;
+  display: flex;
 }
+
 .frame ul {
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
+  justify-content: center;
 }
 
 .frame li a {
   width: 33.33%;
+}
+
+.li1 {
+  justify-content: flex-start;
+}
+
+.li3 {
+  justify-content: flex-end;
 }

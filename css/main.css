@@ -56,11 +56,30 @@ h1 {
 }
 
 .frame ul {
+  margin: 0;
+  padding: 0;
   justify-content: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.frame li {
+  width: 33.33%;
 }
 
 .frame li a {
-  width: 33.33%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125em;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  padding: .5em 0;
+}
+
+.frame li a:hover {
+  background-color: #a63f38;
 }
 
 .li1 {
